@@ -92,6 +92,9 @@ public void deleteplace_Payload() throws IOException {
     // Write code here that turns the phrase above into concrete actions
    
 	res =given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+	System.out.println("testing 1 git");
+	System.out.println("testing 2 git");
+	System.out.println("testing 3 git");
 }
 
 
